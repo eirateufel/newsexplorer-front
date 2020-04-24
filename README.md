@@ -1,2 +1,2 @@
-Project NewsExplorer
-test line
+## Project NewsExplorer
+version 1.0.0
