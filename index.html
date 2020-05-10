@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meste4ko</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="root">
+	<header class="header">
+		<div class="navigation navigation_theme_light">
+			<div class="nameblock nameblock_theme_light">
+				<p class="sitename">NewsExplorer</p>
+				<button class="navigation-close-button navigation-close-button_theme_light"></button>
+			</div>
+			<div class="navigation-buttons navigation-buttons_logout">
+				<button class="button navigation-button navigation-button__main navigation-button__main_theme_light">Главная</button>
+				<button class="button navigation-button navigation-button__saved navigation-button_selected">Сохранённые статьи</button>
+				<div class="authorization-button authorization-button_login">
+					<p class="authorization-button__name">Авторизоваться</p>
+					<img class="authorization-button__pic" src="images/Union.svg">
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<h1>Что в мире творится?</h1>
+			<h2>Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</h2>
+			<form class="search" name="new" novalidate>
+				<input type="text" name="search" class="search-input" placeholder="Название" required minlength="2" maxlength="30">
+				<button type="submit" class="button popup__button popup__button_addcard">Искать</button>
+			</form>
+		</div>
+	</header>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
