@@ -1,0 +1,13 @@
+@import url(./_nav-button/header__navigation_navigation-buttons_nav-button.css);
+@import url(./_auth-button/header__navigation_navigation-buttons_auth-button.css);
+
+.navigation-buttons {
+	display: flex;
+	justify-content: space-between;
+	width: max-content;
+	height: inherit;
+	align-items: center;
+}
+
+.navigation-buttons_logout {
+}

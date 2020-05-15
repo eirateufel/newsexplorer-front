@@ -1,0 +1,30 @@
+.nav-button {
+	background-color: transparent;
+	border: hidden;
+	height: inherit;
+
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: white;
+}
+
+.nav-button_type_main {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-button__wrapper {
+	margin: 0 2px;
+	width: max-content;
+}
+
+.nav-button_type_saved{
+	padding: 0;
+	margin: 0 32px;
+}
+
+.nav-button_selected {
+	border-bottom: 3px solid white;
+}
