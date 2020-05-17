@@ -1,0 +1,9 @@
+.article-card__header {
+	font-family: 'RobotoSlab';
+	font-size: 26px;
+	line-height: 30px;
+
+	padding: 0;
+	margin: 0 0 16px 0;
+	width: inherit;
+}
