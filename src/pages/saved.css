@@ -5,3 +5,8 @@
 @import url('../blocks/article-list/article-list.css');
 @import url('../blocks/article-card/article-card.css');
 @import url('../blocks/footer/footer.css');
+
+body {
+	margin: 0;
+	padding: 0;
+}

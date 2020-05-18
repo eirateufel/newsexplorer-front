@@ -1,8 +1,13 @@
 .nav-button {
+	display: block;
+	text-align: center;
+	text-decoration: none;
 	background-color: transparent;
 	border: hidden;
 	height: inherit;
 	padding: 0;
+	padding-top: 31px;
+
 
 	font-family: 'Roboto';
 	font-weight: 400;
