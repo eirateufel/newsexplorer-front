@@ -1,0 +1,11 @@
+.article-list {
+	background-color: #F5F6F7;
+	padding: 62px 0;
+}
+
+.articles-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1248px;
+	margin: 0 auto;
+}

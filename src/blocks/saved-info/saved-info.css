@@ -1,0 +1,13 @@
+@import url('./__header/saved-info__header.css');
+@import url('./__amount/saved-info__amount.css');
+@import url('./__keywords/saved-info__keywords.css');
+
+.saved-info {
+	background: white;
+	height: 294px;
+}
+
+.saved-info__container {
+	width: 1232px;
+	margin: 40px auto 56px;
+}

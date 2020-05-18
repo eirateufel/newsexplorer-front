@@ -27,9 +27,9 @@
 				<button class="button nav-button nav-button_type_saved nav-button_selected nav-button_theme_dark">
 					<p class="nav-button__wrapper">Сохранённые статьи</p>
 				</button>
-				<button class="button auth-button nav-button_theme_dark">
+				<button class="button auth-button auth-button_theme_dark">
 					<span class="auth-button__wrapper">
-						<p class="auth-button__name nav-button_theme_dark">ВашеИмя</p>
+						<p class="auth-button__name">ВашеИмя</p>
 						<img class="auth-button__pic" src="images/logout.svg">
 					</span>
 				</button>
@@ -38,75 +38,76 @@
 		</div>
 	</header>
 
-	<div class="search-result">
-		<div class="article-card">
-			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
-				<div class="article-card__keyword">КлЮчевое слово</div>
-				<button class="button article-card__icon"></button>
-			</div>
-			<div class="article-card__description">
-				<p class="article-card__date">XX.XX.XX</p>
-				<div class="article-card__text">
-					<h3 class="article-card__header	">Название статьи</h3>
-					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
-				</div>
-				<p class="article-card__source">Источник</p>
-			</div>
-		</div>
-
-		<div class="article-card">
-			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
-				<div class="article-card__keyword">КлЮчевое слово</div>
-				<button class="button article-card__icon"></button>
-			</div>
-			<div class="article-card__description">
-				<p class="article-card__date">XX.XX.XX</p>
-				<div class="article-card__text">
-					<h3 class="article-card__header	">Название статьи</h3>
-					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
-				</div>
-				<p class="article-card__source">Источник</p>
-			</div>
-		</div>
-
-		<div class="article-card">
-			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
-				<div class="article-card__keyword">КлЮчевое слово</div>
-				<button class="button article-card__icon"></button>
-			</div>
-			<div class="article-card__description">
-				<p class="article-card__date">XX.XX.XX</p>
-				<div class="article-card__text">
-					<h3 class="article-card__header	">Название статьи</h3>
-					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
-				</div>
-				<p class="article-card__source">Источник</p>
-			</div>
-		</div>
-
-
-		<div class="article-card">
-			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
-				<div class="article-card__keyword">КлЮчевое слово</div>
-				<button class="button article-card__icon"></button>
-			</div>
-			<div class="article-card__description">
-				<p class="article-card__date">XX.XX.XX</p>
-				<div class="article-card__text">
-					<h3 class="article-card__header	">Название статьи</h3>
-					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
-				</div>
-				<p class="article-card__source">Источник</p>
-			</div>
+	<div class="saved-info">
+		<div class="saved-info__container">
+			<h4 class="saved-info__header">Сохранённые статьи</h4>
+			<p class="saved-info__amount"><span class="saved-info__name">ВашеИмя</span>, у вас <span class="saved-info__article-number">X</span> сохраненных статей</p>
+			<p class="saved-info__keywords">По ключевым словам: <span class="saved-info__keyword-list">Ключевые, Слова</span> и <span class="saved-info__keyword-number">X</span> другим</p>
 		</div>
 	</div>
 
+	<div class="article-list">
+		<div class="articles-container">
+		<div class="article-card">
+			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
+				<div class="article-card__keyword">КлЮчевое слово</div>
+				<button class="button article-card__icon"></button>
+			</div>
+			<div class="article-card__description">
+				<p class="article-card__date">XX.XX.XX</p>
+				<div class="article-card__text">
+					<h3 class="article-card__header	">Название статьи</h3>
+					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
+				</div>
+				<p class="article-card__source">Источник</p>
+			</div>
+		</div>
 
-	<div class="about-me">
-		<img class="about-me__pic" src="images/avatar.png">
-		<div class="about-me__text">
-			<h3 class="about-header">Об авторе</h3>
-			<p class="about-paragraph">Тут потом будет какой-то другой текст и другая фотография, но не сегодня, не сегодня.</p>
+		<div class="article-card">
+			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
+				<div class="article-card__keyword">КлЮчевое слово</div>
+				<button class="button article-card__icon"></button>
+			</div>
+			<div class="article-card__description">
+				<p class="article-card__date">XX.XX.XX</p>
+				<div class="article-card__text">
+					<h3 class="article-card__header	">Название статьи</h3>
+					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
+				</div>
+				<p class="article-card__source">Источник</p>
+			</div>
+		</div>
+
+		<div class="article-card">
+			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
+				<div class="article-card__keyword">КлЮчевое слово</div>
+				<button class="button article-card__icon"></button>
+			</div>
+			<div class="article-card__description">
+				<p class="article-card__date">XX.XX.XX</p>
+				<div class="article-card__text">
+					<h3 class="article-card__header	">Название статьи</h3>
+					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
+				</div>
+				<p class="article-card__source">Источник</p>
+			</div>
+		</div>
+
+
+		<div class="article-card">
+			<div class="article-card__image" style="background-image: url('images/card-pic.png');">
+				<div class="article-card__keyword">КлЮчевое слово</div>
+				<button class="button article-card__icon"></button>
+			</div>
+			<div class="article-card__description">
+				<p class="article-card__date">XX.XX.XX</p>
+				<div class="article-card__text">
+					<h3 class="article-card__header	">Название статьи</h3>
+					<p class="article-card__paragraph">Здесь находится текст статьи, регулируемый по объему</p>
+				</div>
+				<p class="article-card__source">Источник</p>
+			</div>
+		</div>
 		</div>
 	</div>
 
