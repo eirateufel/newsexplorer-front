@@ -27,3 +27,14 @@
 		width: 530px;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.about-paragraph {
+		width: 424px;
+	}
+	.about-header {
+		font-size: 30px;
+		line-height: 40px;
+		margin: 40px 0 16px 0;
+	}
+}

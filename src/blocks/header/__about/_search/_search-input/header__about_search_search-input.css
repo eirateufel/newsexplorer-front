@@ -9,3 +9,10 @@
 	left: 0;
 	top: 0;
 }
+
+@media screen and (max-width: 800px) {
+	.search-input {
+		width: 448px;
+		height: 56px;
+	}
+}

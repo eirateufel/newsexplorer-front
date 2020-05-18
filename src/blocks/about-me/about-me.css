@@ -24,3 +24,10 @@
 		width: calc(300px * 3 + 16px * 3);
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.about-me__container {
+		height: 354px;
+		width: calc(224px * 3 + 8px * 3);
+	}
+}

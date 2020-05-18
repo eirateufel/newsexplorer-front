@@ -2,4 +2,11 @@
 	display: flex;
 	width: min-content;
 	margin: 0 auto;
+	height: 640px;
+}
+
+@media screen and (max-width: 800px) {
+	.search-result__cards {
+		height: 452px;
+	}
 }
