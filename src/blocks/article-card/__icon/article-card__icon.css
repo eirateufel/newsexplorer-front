@@ -38,3 +38,10 @@
 		right: 8px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.article-card__icon {
+		top: 16px;
+		right: 16px;
+	}
+}

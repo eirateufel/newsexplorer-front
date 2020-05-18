@@ -16,3 +16,9 @@
 		height: 56px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.search-input {
+		width: 288px;
+	}
+}

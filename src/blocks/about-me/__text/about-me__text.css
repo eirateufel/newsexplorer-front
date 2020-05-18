@@ -38,3 +38,14 @@
 		margin: 40px 0 16px 0;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.about-paragraph {
+		width: 288px;
+		margin: 0 0 80px;
+	}
+	.about-header {
+		width: 288px;
+		margin: 24px 0 16px 0;
+	}
+}

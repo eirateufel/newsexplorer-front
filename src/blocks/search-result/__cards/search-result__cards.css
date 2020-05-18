@@ -10,3 +10,10 @@
 		height: 452px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.search-result__cards {
+		height: calc(3 * 446px + 2 * 10px + 15px);
+		flex-direction: column;
+	}
+}

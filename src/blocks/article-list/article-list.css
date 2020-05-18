@@ -25,3 +25,13 @@
 		padding: 32px 0;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.articles-container {
+		width: calc(100vw - 4px);
+		justify-content: center;
+	}
+	.article-list {
+		padding: 24px 0;
+	}
+}

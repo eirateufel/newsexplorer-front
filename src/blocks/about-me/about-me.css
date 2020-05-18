@@ -31,3 +31,12 @@
 		width: calc(224px * 3 + 8px * 3);
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.about-me__container {
+		flex-direction: column;
+		align-items: center;
+		height: min-content;
+		width: 288px;
+	}
+}

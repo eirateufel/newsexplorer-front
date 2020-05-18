@@ -34,3 +34,11 @@
 		max-width: 160px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.article-card__keyword {
+		top: 16px;
+		left: 16px;
+		max-width: 208px;
+	}
+}

@@ -28,3 +28,22 @@
 		height: 66px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.navigation {
+		height: max-content;
+		box-shadow: none;
+	}
+	.navigation-wrapper {
+		flex-wrap: wrap;
+		width: calc(100vw - 2px);
+		height: max-content;
+		justify-content: center;
+
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+	}
+	.navigation-wrapper_theme_dark {
+		border-bottom: 1px solid #D1D2D6;
+	}
+}

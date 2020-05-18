@@ -14,3 +14,11 @@
 		border-top-right-radius: 15px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.article-card__image {
+		height: 196px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+}

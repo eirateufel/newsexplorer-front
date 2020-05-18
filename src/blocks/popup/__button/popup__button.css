@@ -4,8 +4,9 @@
 	border: none;
 	border-radius: 100px;
 	margin: 39px 0 16px;
-	font-size: 36px;
-	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;	color: white;
 }
 
 .popup__button:disabled {

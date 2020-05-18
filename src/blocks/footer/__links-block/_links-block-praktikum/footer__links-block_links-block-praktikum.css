@@ -10,3 +10,12 @@
 		height: 22px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.links-block__praktikum {
+		text-align: left;
+		position: absolute;
+		bottom: 130px;
+		left: 16px;
+	}
+}

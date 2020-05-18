@@ -60,3 +60,14 @@
 		margin-left: 16px;
 	}
 }
+
+@media screen and (max-width: 750px) {
+	.auth-button {
+		width: 288px;
+		margin: 0 0 24px 0;
+		height: max-content;
+	}
+	.auth-button__wrapper {
+		height: 56px;
+	}
+}

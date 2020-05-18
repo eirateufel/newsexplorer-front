@@ -18,3 +18,9 @@
 		width: 350px;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.saved-info__amount {
+		width: calc(100vw - 16px * 2);
+	}
+}

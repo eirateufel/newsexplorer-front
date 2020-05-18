@@ -14,3 +14,10 @@
 		height: 56px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.search-button {
+		width: 288px;
+		top: 72px;
+	}
+}

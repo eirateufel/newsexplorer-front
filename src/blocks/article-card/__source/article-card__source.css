@@ -25,3 +25,10 @@
 		left: 16px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.article-card__source {
+		top: 208px;
+		left: 16px;
+	}
+}

@@ -29,3 +29,13 @@
 		height: 204px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.saved-info__container {
+		width: calc(100vw - 16px * 2);
+	}
+	.saved-info {
+		padding: 8px 0 32px;
+		height: 246px;
+	}
+}

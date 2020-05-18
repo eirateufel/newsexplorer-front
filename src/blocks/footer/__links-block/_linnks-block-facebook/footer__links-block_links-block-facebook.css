@@ -12,3 +12,12 @@
 		margin-right: 41px;
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.links-block__facebook {
+		position: absolute;
+		top: 22px;
+		right: 16px;
+		margin: 0;
+	}
+}

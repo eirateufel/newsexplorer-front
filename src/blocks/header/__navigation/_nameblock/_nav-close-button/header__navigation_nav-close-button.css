@@ -5,8 +5,15 @@
 	width: min-content;
 	padding: 0;
 	margin: 0 16px 0 0;
+	background: transparent;
 }
 
 .nav-close-button__img {
 	width: 24px;
+}
+
+@media screen and (max-width: 705px) {
+	.nav-close-button {
+		visibility: visible;
+	}
 }
