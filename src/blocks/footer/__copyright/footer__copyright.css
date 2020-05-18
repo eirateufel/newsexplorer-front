@@ -7,3 +7,9 @@
 	color: #B6BCBF;
 	margin: 0 0 0 104px;
 }
+
+@media screen and (max-width: 800px) {
+	.copyright {
+		margin-left: 40px;
+	}
+}

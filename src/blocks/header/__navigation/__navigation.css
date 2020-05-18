@@ -22,3 +22,9 @@
 	background-color: white;
 	box-shadow: inset 0px -1px 0px #D1D2D6;
 }
+
+@media screen and (max-width: 800px) {
+	.navigation {
+		height: 66px;
+	}
+}

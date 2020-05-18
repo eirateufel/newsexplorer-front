@@ -11,6 +11,10 @@
 	transition: transform .3s linear;
 }
 
+.article-card__icon_del {
+	background-image: url(../../../images/article-del.svg);
+}
+
 .article-card__icon_saved {
   background-image: url(../../../images/article-del.svg);
 }
@@ -26,4 +30,11 @@
 
 .article-card__icon_saved {
 	background: url(../../../images/article-save_saved.svg);
+}
+
+@media screen and (max-width: 800px) {
+	.article-card__icon {
+		top: 8px;
+		right: 8px;
+	}
 }

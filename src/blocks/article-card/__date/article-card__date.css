@@ -13,3 +13,11 @@
 	top: 20px;
 	left: 24px;
 }
+
+
+@media screen and (max-width: 800px) {
+	.article-card__date {
+		top: 16px;
+		left: 16px;
+	}
+}

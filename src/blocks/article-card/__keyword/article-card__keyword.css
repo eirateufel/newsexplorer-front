@@ -25,3 +25,12 @@
 .article-card__keyword::first-letter {
 	text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 800px) {
+	.article-card__keyword {
+		top: 8px;
+		left: 8px;
+		max-width: 160px;
+	}
+}

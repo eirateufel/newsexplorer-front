@@ -7,3 +7,10 @@
   position: relative;
 }
 
+@media screen and (max-width: 800px) {
+	.article-card__image {
+		height: 150px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+}
